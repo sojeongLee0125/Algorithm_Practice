@@ -27,3 +27,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/.idea/.gitignore
+/Algorithm_Practice.iml
+/.idea/jpa-buddy.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
