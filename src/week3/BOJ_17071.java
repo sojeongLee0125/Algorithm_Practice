@@ -32,7 +32,7 @@ public class BOJ_17071 {
                     int[] arr = {c + 1, c - 1, c * 2};
                     for (int n : arr) {
                         if (0 > n || n > MAX || chk[time % 2][n] != 0) continue;
-                        chk[time % 2][n] = chk[(time + 1) % 2][c] + 1;
+                        chk[time % 2][n] = 1;
                         if (n == K) {
                             sw = 1;
                             break;
