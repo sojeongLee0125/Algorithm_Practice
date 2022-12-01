@@ -15,6 +15,7 @@ public class BitMasking_2 {
 
     public static void main(String[] args) {
         for (int i = 1; i < n; i++) {
+            // 0번째 요소인 사과를 포함하는 2개의 조합 경우의 수 구하기
             sol(1 | (1 << i));
         }
     }
