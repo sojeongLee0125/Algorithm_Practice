@@ -6,11 +6,9 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class BOJ_Step14_2477 {
-
-    // idx out 에러 해결하고 커밋 및 블로깅하기
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
+        // idx out 에러 해결하고 커밋 및 블로깅하기
         int N = Integer.parseInt(br.readLine()); // 참외 갯수
         int[] arr = new int[6]; // 방향별 길이 입력 배열
         int maxW = 0, maxH = 0; // 가로 세로 길이 최대값
