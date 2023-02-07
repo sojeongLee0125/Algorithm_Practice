@@ -35,3 +35,5 @@ bin/
 /.idea/vcs.xml
 /.idea/dbnavigator.xml
 /.idea/encodings.xml
+/.idea/sonarlint.xml
+/.idea/sonarlint-state.xml
